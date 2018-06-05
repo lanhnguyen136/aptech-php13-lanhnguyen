@@ -1,0 +1,23 @@
+body{
+    margin: 20px;
+    border-style: ridge;
+    background-color: gainsboro;
+}
+h1{
+    color: red;
+    font-family: inherit;
+    text-align: center;
+    font-size: 60px
+}
+div{
+    text-align: center;
+    background-color: white;
+    margin: 20px 350px 20px 350px;
+    padding: 50px;
+}
+.justify{
+    text-align: justify;
+}
+.line-height{
+    line-height: 25px;
+}
