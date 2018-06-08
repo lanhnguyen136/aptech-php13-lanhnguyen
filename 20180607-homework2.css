@@ -1,0 +1,60 @@
+.the-famous-people{
+    margin: 20px;
+    border-style: ridge;
+}
+.name-of-page{
+    color: gold;
+    background-color: black;
+    text-align: center;
+    height: 40px;
+}
+.bar{
+    background-color: gainsboro;
+    height:50px; 
+    text-align: center;
+}
+.tablink{
+    background-color: gainsboro;
+    font-size: 17px;
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.content{
+    display:flex; 
+}
+.childhood-journeys{
+    width: 70%;
+}
+.opening{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+.catalogue{
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.justify-line-height{
+    text-align: justify;
+    line-height: 25px;
+}
+.picture-of-hochiminh{
+    width: 30%;
+    text-align: center;
+}
+.size-of-picture{
+    width: 80%;
+}
+.finish{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.center-italic{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 20px;
+    font-style: italic;
+}
