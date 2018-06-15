@@ -1,0 +1,10 @@
+.body-custom{
+    height: 100vh;
+}
+.border-custom{
+    border-bottom-width: 3px !important;
+}
+a:hover{
+    text-decoration: none;
+    border-bottom: gainsboro;
+}
