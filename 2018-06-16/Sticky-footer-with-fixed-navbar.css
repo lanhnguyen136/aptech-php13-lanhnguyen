@@ -1,0 +1,9 @@
+.anchor-custom:hover{
+    text-decoration: none;
+}
+.body-custom{
+    height: 100vh;
+}
+.btn-custom:hover{
+    background-color: greenyellow;
+}

@@ -4,7 +4,10 @@
 .border-custom{
     border-bottom-width: 3px !important;
 }
-a:hover{
+.anchor-custom{
+    border-bottom: 3px solid transparent;
+}
+.anchor-custom:hover{
     text-decoration: none;
-    border-bottom: gainsboro;
+    border-bottom: 3px solid grey;
 }
