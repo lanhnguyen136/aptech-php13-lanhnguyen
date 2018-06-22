@@ -1,0 +1,36 @@
+.anchor-custom:hover{
+    text-decoration: none;
+    color: white !important;
+}
+.product-device:before{
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color:gainsboro;
+    border-radius: 5px;
+}
+.product-device{
+    position: absolute;
+    right: 10%;
+    left: 90%;
+    bottom:-65%;
+    width: 300px;
+    height: 540px;
+    background-color: black;
+    border-radius: 21px;
+    transform: rotate(34deg);
+}
+.product-device-2{
+    top: -50%;
+    right: auto;
+    left: -75%;
+    bottom: 0%;
+}
+.item-1{
+    width: 80%;
+    height: 300px;
+    border-radius: 21px 21px 0 0
+}
