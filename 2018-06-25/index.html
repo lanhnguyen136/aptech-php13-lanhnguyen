@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+<img id="js-demo" src="https://www.w3schools.com/js/pic_bulboff.gif" style="width:100px">
+
+<button onclick="turnOnOff()">Turn on/off the light</button>
+<script>
+    $(document).ready(function(){
+        $("button").click(function(){
+        var a = $("#js-demo");
+        console.log(a.src);
+            if(a.src === 'https://www.w3schools.com/js/pic_bulboff.gif'){
+    a.src = "https://www.w3schools.com/js/pic_bulbon.gif"
+ }
+else if(a.src === "https://www.w3schools.com/js/pic_bulbon.gif"){
+     a.src = "https://www.w3schools.com/js/pic_bulboff.gif"
+}
+})
+        })
+</script>
+
+<!--<script src="./script.js"></script>-->
+</body>
+</html>

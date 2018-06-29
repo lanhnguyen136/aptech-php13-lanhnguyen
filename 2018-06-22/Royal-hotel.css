@@ -1,0 +1,61 @@
+.background{
+    position: relative;
+    height: 700px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 10;
+}
+.background-img{
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    background-image: url('https://www.melatiresort.com/myuploads/image/home/melati-beach-resort-samui-2.jpg');
+    opacity: 0.5;
+    z-index: 5;
+}
+.content{
+    position: absolute;
+    height: 700px;
+    z-index: 999;
+    color: black;
+}
+.anchor-custom:hover{
+    text-decoration: none;
+    color: blue;
+}
+.section-custom{
+    height: 30px;
+    width: 200px;
+}
+.button-custom{
+    height: 30px;
+    width: 200px;
+}
+.accommodation-area{
+    width: 100%;
+}
+.facilities-area{
+    position: relative;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 10;
+}
+.facilities-area-img{
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    background-image: url('http://www.penina.com/media/1951262/mer1928gr123283.jpg?mode=crop-up&cropUpAlias=carousel&quality=70');
+    opacity: 0.2;
+    z-index: 5;
+}
+.facilities{
+    position: absolute;
+    height: 700px;
+    z-index: 999;
+    color: white;
+}
+.facilities-items{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(249, 249, 255, 0.102);
+}

@@ -3,3 +3,8 @@
     width: 25px;
     border: 1px solid gainsboro;
 }
+#menu-up{
+    height: 250px;
+    width: 100%;
+    display: none;
+}
