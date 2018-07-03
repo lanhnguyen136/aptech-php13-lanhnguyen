@@ -14,9 +14,19 @@
     <div id="menu-up" class="bg-dark">
         <div class="container-fluid">
             <div class="d-flex flex-row">
-                <div class="col-8">
+                <div class="col-7 mx-5 my-4 w-50">
                     <h4 class="text-white">About</h4>
-                    <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information</p>
+                    <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few
+                        sentences long so folks can pick up some informative tidbits. Then, link them off to some social
+                        networking sites or contact information</p>
+                </div>
+                <div class="col-4 mx-5 my-4">
+                    <div class="d-flex flex-column">
+                        <h4 class="text-white">Contact</h4>
+                        <a class="text-white" href="">Follow on Twitter</a>
+                        <a class="text-white" href="">Like on Facebook</a>
+                        <a class="text-white" href="">Email me</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -43,11 +53,11 @@
             </div>
         </div>
         <script>
-            $(document).ready(function(){
-                $("button:first").click(function(){
+            $(document).ready(function () {
+                $("button:first").click(function () {
                     $("#menu-up").slideToggle("slow");
+                })
             })
-        })
         </script>
     </header>
 
